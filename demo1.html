@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<style>
+* {margin:0;padding:0;}
+.ye {background:orange;}
+</style>
+</head>
+<body>
+<p >没有透视镜</p>
+<p class='one'>透视镜</p>
+<p>没有透视镜</p>
+<div class='one'>透视镜</div>
+<div>没有透视镜</div>
+<p >没有透视镜</p>
+<div>该国驻华大使<span class="one ye" style="display:inline-block;">加拉维</span>托·塞古拉在致辞中表示，两国建交9个月以来，双边关系取得了积极进展，包括多米尼加驻华使馆开馆，国务委员兼外长王毅访问多米尼加以及多米尼加总统梅迪纳首次正式访华。
+塞古拉表示，自去年11月多米尼加总统访华以来，两国已签订了18项合作协议，为两国未来合作指明了方向。与此同时，双边贸易往来不断加强，年均贸易额约为25亿美元。
+</div>
+<div class="one" style="width:8cm;">
+中国日报网2月28日电 据商务部消息，全国外资工作会议2月26日至27日在京召开。商务部副部长王受文在会上表示，2018年“外资促进行动计划”启动，全国商务系统完善利用外资政策体系，推进自贸试验区和自由贸易港建设，实施开发区创新提升工程，深化“放管服”改革，加大投资促进和保护力度，圆满完成“稳外资”目标，外资结构进一步优化，对外开放平台持续健康发展，“外资促进行动计划”实现良好开局。
+</div>
+<p>中国日报网</p>
+<p>hello<span class="two" style="display:inline-block;">world</span>donald trump!</p>
+<div class="two"><img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2805036638,3319795995&fm=26&gp=0.jpg"></div>
+<script src="peep.js">
+</script>
+<script>
+$(document).ready(function(){
+	var	killone=$(".one");
+	var onee=peep.Grass(25,'center','yellow',killone,'lightgray');
+	var killtwo=$(".two");
+	var otwo=peep.Grass(35,'center','green',killtwo,'rgb(153,204,51)');
+});
+</script>
+</body>
+</html>
